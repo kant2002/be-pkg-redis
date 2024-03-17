@@ -1,7 +1,7 @@
 import Redis from 'ioredis'
 
-import { ServiceUnavailableError } from '@diia-inhouse/errors'
-import { HealthCheckResult, HttpStatusCode, Logger, OnHealthCheck } from '@diia-inhouse/types'
+import { ServiceUnavailableError } from '@kant2002-diia-inhouse/errors'
+import { HealthCheckResult, HttpStatusCode, Logger, OnHealthCheck } from '@kant2002-diia-inhouse/types'
 
 import { CacheStatus, RedisConfig, RedisStatusValue } from '../interfaces/redis'
 import { SetValueOptions, StoreStatusResult, StoreTag, TaggedStoreValue, TagsConfig } from '../interfaces/store'

@@ -1,6 +1,6 @@
 import Redis, { RedisKey, RedisValue } from 'ioredis'
 
-import { Logger } from '@diia-inhouse/types'
+import { Logger } from '@kant2002-diia-inhouse/types'
 
 import { CacheProvider } from '../../interfaces/cache'
 import { CacheStatus, RedisConfig } from '../../interfaces/redis'

@@ -23,10 +23,10 @@ class RedisServiceMock {
 
 jest.mock('@services/redis', () => ({ RedisService: RedisServiceMock }))
 
-import Logger from '@diia-inhouse/diia-logger'
-import { ServiceUnavailableError } from '@diia-inhouse/errors'
-import { mockClass } from '@diia-inhouse/test'
-import { HttpStatusCode } from '@diia-inhouse/types'
+import Logger from '@kant2002-diia-inhouse/diia-logger'
+import { ServiceUnavailableError } from '@kant2002-diia-inhouse/errors'
+import { mockClass } from '@kant2002-diia-inhouse/test'
+import { HttpStatusCode } from '@kant2002-diia-inhouse/types'
 
 import { CacheStatus, SetValueOptions, StoreService, StoreTag, TaggedStoreValue, TagsConfig } from '../../../src/index'
 import { generateUuid } from '../../mocks/randomData'

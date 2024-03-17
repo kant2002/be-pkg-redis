@@ -35,10 +35,10 @@ class RedisCacheProviderMock {
 
 jest.mock('@services/providers/cache', () => ({ RedisCacheProvider: RedisCacheProviderMock }))
 
-import Logger from '@diia-inhouse/diia-logger'
-import { EnvService } from '@diia-inhouse/env'
-import { mockClass } from '@diia-inhouse/test'
-import { HttpStatusCode } from '@diia-inhouse/types'
+import Logger from '@kant2002-diia-inhouse/diia-logger'
+import { EnvService } from '@kant2002-diia-inhouse/env'
+import { mockClass } from '@kant2002-diia-inhouse/test'
+import { HttpStatusCode } from '@kant2002-diia-inhouse/types'
 
 import { CacheService, CacheStatus, RedisStatusValue } from '../../../src/index'
 import { generateUuid } from '../../mocks/randomData'

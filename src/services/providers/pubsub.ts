@@ -1,6 +1,6 @@
 import Redis from 'ioredis'
 
-import { Logger } from '@diia-inhouse/types'
+import { Logger } from '@kant2002-diia-inhouse/types'
 
 import { MessageHandler, PubSubServiceProvider, PubSubStatus } from '../../interfaces/pubsub'
 import { RedisConfig } from '../../interfaces/redis'

@@ -1,7 +1,7 @@
 import { randomUUID } from 'crypto'
 
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { ServiceUnavailableError } from '@diia-inhouse/errors'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { ServiceUnavailableError } from '@kant2002-diia-inhouse/errors'
 
 import { StoreService, StoreTag } from '../../src/index'
 

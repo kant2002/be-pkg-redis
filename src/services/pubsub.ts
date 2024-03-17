@@ -1,4 +1,4 @@
-import { HealthCheckResult, HttpStatusCode, Logger, OnHealthCheck } from '@diia-inhouse/types'
+import { HealthCheckResult, HttpStatusCode, Logger, OnHealthCheck } from '@kant2002-diia-inhouse/types'
 
 import { MessageHandler, PubSubStatus, PubSubStatusResult } from '../interfaces/pubsub'
 import { RedisConfig, RedisStatusValue } from '../interfaces/redis'

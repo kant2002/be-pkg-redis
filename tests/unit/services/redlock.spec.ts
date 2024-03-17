@@ -24,8 +24,8 @@ class RedlockMutexMock {
 jest.mock('redis-semaphore', () => ({ RedlockMutex: RedlockMutexMock }))
 jest.mock('@services/redis', () => ({ RedisService: RedisServiceMock }))
 
-import Logger from '@diia-inhouse/diia-logger'
-import { mockClass } from '@diia-inhouse/test'
+import Logger from '@kant2002-diia-inhouse/diia-logger'
+import { mockClass } from '@kant2002-diia-inhouse/test'
 
 import { RedlockService } from '../../../src/index'
 import { config } from '../../mocks/services/redlock'

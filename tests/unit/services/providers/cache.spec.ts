@@ -22,8 +22,8 @@ class RedisServiceMock {
 
 jest.mock('@services/redis', () => ({ RedisService: RedisServiceMock }))
 
-import Logger from '@diia-inhouse/diia-logger'
-import { mockClass } from '@diia-inhouse/test'
+import Logger from '@kant2002-diia-inhouse/diia-logger'
+import { mockClass } from '@kant2002-diia-inhouse/test'
 
 import { RedisCacheProvider } from '../../../../src/services/providers/cache'
 import { config } from '../../../mocks/services/providers/cache'

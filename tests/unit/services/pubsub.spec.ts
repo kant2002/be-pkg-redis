@@ -25,9 +25,9 @@ class PubSubProviderMock {
 
 jest.mock('@services/providers/pubsub', () => ({ PubSubProvider: PubSubProviderMock }))
 
-import Logger from '@diia-inhouse/diia-logger'
-import { mockClass } from '@diia-inhouse/test'
-import { HttpStatusCode } from '@diia-inhouse/types'
+import Logger from '@kant2002-diia-inhouse/diia-logger'
+import { mockClass } from '@kant2002-diia-inhouse/test'
+import { HttpStatusCode } from '@kant2002-diia-inhouse/types'
 
 import { PubSubService, PubSubStatus, RedisStatusValue } from '../../../src/index'
 import { generateUuid } from '../../mocks/randomData'

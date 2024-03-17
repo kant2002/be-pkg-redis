@@ -1,7 +1,7 @@
 import { RedisKey, RedisValue } from 'ioredis'
 
-import { EnvService } from '@diia-inhouse/env'
-import { HealthCheckResult, HttpStatusCode, Logger, OnHealthCheck } from '@diia-inhouse/types'
+import { EnvService } from '@kant2002-diia-inhouse/env'
+import { HealthCheckResult, HttpStatusCode, Logger, OnHealthCheck } from '@kant2002-diia-inhouse/types'
 
 import { CacheProvider, CacheStatusResult } from '../interfaces/cache'
 import { CacheStatus, RedisConfig, RedisStatusValue } from '../interfaces/redis'
